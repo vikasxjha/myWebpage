@@ -123,11 +123,11 @@ body {
 }
 
 .hero-subtitle {
-  color: #0ea5e9;
+  color: #5ee90e;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 16px;
   animation: fadeIn 1s ease-out;
 }
@@ -348,7 +348,7 @@ body {
 }
 
 .section-title-orange {
-  background: linear-gradient(45deg, #f97316, #dc2626);
+  background: linear-gradient(45deg, #f97316, #c36969);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -419,6 +419,8 @@ body {
   border-radius: 16px;
   filter: blur(40px);
   transition: opacity 0.5s ease;
+  margin-top: -50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .about-profile-image {
@@ -1076,4 +1078,28 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(to bottom, #0284c7, #ea580c);
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #000;
+  width: 0;
+  animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
