@@ -99,7 +99,11 @@ body {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(45deg, rgba(14, 165, 233, 0.2), rgba(249, 115, 22, 0.2));
+  background: linear-gradient(
+    45deg,
+    rgba(14, 165, 233, 0.2),
+    rgba(249, 115, 22, 0.2)
+  );
   animation: pulse 3s ease-in-out infinite;
 }
 
@@ -324,7 +328,11 @@ body {
 /* About Section */
 .about {
   padding: 80px 20px;
-  background: linear-gradient(45deg, rgba(30, 41, 59, 0.5), rgba(12, 74, 110, 0.5));
+  background: linear-gradient(
+    45deg,
+    rgba(30, 41, 59, 0.5),
+    rgba(12, 74, 110, 0.5)
+  );
   backdrop-filter: blur(10px);
 }
 
@@ -403,7 +411,11 @@ body {
 .about-image-glow {
   position: absolute;
   inset: 0;
-  background: linear-gradient(45deg, rgba(14, 165, 233, 0.2), rgba(249, 115, 22, 0.2));
+  background: linear-gradient(
+    45deg,
+    rgba(14, 165, 233, 0.2),
+    rgba(249, 115, 22, 0.2)
+  );
   border-radius: 16px;
   filter: blur(40px);
   transition: opacity 0.5s ease;
@@ -530,7 +542,11 @@ body {
 }
 
 .skill-tag {
-  background: linear-gradient(45deg, rgba(14, 165, 233, 0.2), rgba(249, 115, 22, 0.2));
+  background: linear-gradient(
+    45deg,
+    rgba(14, 165, 233, 0.2),
+    rgba(249, 115, 22, 0.2)
+  );
   color: white;
   border: 1px solid rgba(14, 165, 233, 0.3);
   padding: 6px 12px;
@@ -547,7 +563,11 @@ body {
 /* Experience Section */
 .experience {
   padding: 80px 20px;
-  background: linear-gradient(45deg, rgba(30, 41, 59, 0.5), rgba(12, 74, 110, 0.5));
+  background: linear-gradient(
+    45deg,
+    rgba(30, 41, 59, 0.5),
+    rgba(12, 74, 110, 0.5)
+  );
   backdrop-filter: blur(10px);
 }
 
@@ -683,15 +703,27 @@ body {
 }
 
 .project-orange .project-overlay {
-  background: linear-gradient(45deg, rgba(249, 115, 22, 0.1), rgba(220, 38, 38, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(249, 115, 22, 0.1),
+    rgba(220, 38, 38, 0.1)
+  );
 }
 
 .project-blue .project-overlay {
-  background: linear-gradient(45deg, rgba(14, 165, 233, 0.1), rgba(37, 99, 235, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(14, 165, 233, 0.1),
+    rgba(37, 99, 235, 0.1)
+  );
 }
 
 .project-red .project-overlay {
-  background: linear-gradient(45deg, rgba(220, 38, 38, 0.1), rgba(249, 115, 22, 0.1));
+  background: linear-gradient(
+    45deg,
+    rgba(220, 38, 38, 0.1),
+    rgba(249, 115, 22, 0.1)
+  );
 }
 
 .project-card:hover .project-overlay {
@@ -733,7 +765,11 @@ body {
 }
 
 .tech-tag {
-  background: linear-gradient(45deg, rgba(14, 165, 233, 0.2), rgba(249, 115, 22, 0.2));
+  background: linear-gradient(
+    45deg,
+    rgba(14, 165, 233, 0.2),
+    rgba(249, 115, 22, 0.2)
+  );
   color: white;
   border: 1px solid rgba(14, 165, 233, 0.3);
   padding: 4px 8px;
@@ -770,7 +806,11 @@ body {
 /* Contact Section */
 .contact {
   padding: 80px 20px;
-  background: linear-gradient(45deg, rgba(30, 41, 59, 0.5), rgba(12, 74, 110, 0.5));
+  background: linear-gradient(
+    45deg,
+    rgba(30, 41, 59, 0.5),
+    rgba(12, 74, 110, 0.5)
+  );
   backdrop-filter: blur(10px);
   text-align: center;
 }
